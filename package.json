@@ -6,14 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "sonarr-api": "^0.2.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mervynmartin/ShawnifyMediaAPI.git"
+    "url": "git+https://github.com/mervynmartin/shawnify-media-api.git"
   },
   "author": "Mervyn Martin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mervynmartin/ShawnifyMediaAPI/issues"
+    "url": "https://github.com/mervynmartin/shawnify-media-api/issues"
   },
-  "homepage": "https://github.com/mervynmartin/ShawnifyMediaAPI#readme"
+  "homepage": "https://github.com/mervynmartin/shawnify-media-api#readme"
 }
