@@ -1,0 +1,19 @@
+{
+  "name": "shawnify-media-api",
+  "version": "0.0.1",
+  "description": "Some sort of connector between discord.js and sonarr-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mervynmartin/ShawnifyMediaAPI.git"
+  },
+  "author": "Mervyn Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mervynmartin/ShawnifyMediaAPI/issues"
+  },
+  "homepage": "https://github.com/mervynmartin/ShawnifyMediaAPI#readme"
+}

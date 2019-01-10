@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Nodist\\v-x64\\7.2.1\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Nodist\\npmv\\4.0.5\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@4.0.5
+3 info using node@v7.2.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\repo\\shawnify-media-api',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\nodejs-dev\AppData\Roaming\npm-cache\shawnify-media-api\0.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\nodejs-dev\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle shawnify-media-api@0.0.1~prepublish: shawnify-media-api@0.0.1
+11 warn lifecycle The node binary used for scripts is C:\Program Files (x86)\Nodist\bin\node.exe but npm is using C:\Program Files (x86)\Nodist\v-x64\7.2.1\node.exe itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
+12 silly lifecycle shawnify-media-api@0.0.1~prepublish: no script for prepublish, continuing
+13 info lifecycle shawnify-media-api@0.0.1~prepare: shawnify-media-api@0.0.1
+14 silly lifecycle shawnify-media-api@0.0.1~prepare: no script for prepare, continuing
+15 verbose tar pack [ 'C:\\Users\\nodejs-dev\\AppData\\Roaming\\npm-cache\\shawnify-media-api\\0.0.1\\package.tgz',
+15 verbose tar pack   'C:\\repo\\shawnify-media-api' ]
+16 verbose tarball C:\Users\nodejs-dev\AppData\Roaming\npm-cache\shawnify-media-api\0.0.1\package.tgz
+17 verbose folder C:\repo\shawnify-media-api
+18 verbose addLocalTarball adding from inside cache C:\Users\nodejs-dev\AppData\Roaming\npm-cache\shawnify-media-api\0.0.1\package.tgz
+19 verbose correctMkdir C:\Users\nodejs-dev\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 silly cache afterAdd shawnify-media-api@0.0.1
+21 verbose afterAdd C:\Users\nodejs-dev\AppData\Roaming\npm-cache\shawnify-media-api\0.0.1\package\package.json not in flight; writing
+22 verbose correctMkdir C:\Users\nodejs-dev\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+23 verbose afterAdd C:\Users\nodejs-dev\AppData\Roaming\npm-cache\shawnify-media-api\0.0.1\package\package.json written
+24 silly publish { name: 'shawnify-media-api',
+24 silly publish   version: '0.0.1',
+24 silly publish   description: 'Some sort of connector between discord.js and sonarr-api',
+24 silly publish   main: 'index.js',
+24 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+24 silly publish   repository:
+24 silly publish    { type: 'git',
+24 silly publish      url: 'git+https://github.com/mervynmartin/ShawnifyMediaAPI.git' },
+24 silly publish   author: { name: 'Mervyn Martin' },
+24 silly publish   license: 'ISC',
+24 silly publish   bugs: { url: 'https://github.com/mervynmartin/ShawnifyMediaAPI/issues' },
+24 silly publish   homepage: 'https://github.com/mervynmartin/ShawnifyMediaAPI#readme',
+24 silly publish   readme: 'ERROR: No README data found!',
+24 silly publish   readmeFilename: 'README.md',
+24 silly publish   _id: 'shawnify-media-api@0.0.1',
+24 silly publish   _shasum: '8e73a90ccf210f7797080b2e08e92952e3ee0356',
+24 silly publish   _from: '.' }
+25 info lifecycle shawnify-media-api@0.0.1~prepublishOnly: shawnify-media-api@0.0.1
+26 silly lifecycle shawnify-media-api@0.0.1~prepublishOnly: no script for prepublishOnly, continuing
+27 verbose getPublishConfig undefined
+28 silly mapToRegistry name shawnify-media-api
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'shawnify-media-api',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   escapedName: 'shawnify-media-api',
+31 silly mapToRegistry   name: 'shawnify-media-api',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/shawnify-media-api
+33 verbose publish registryBase https://registry.npmjs.org/
+34 silly publish uploading C:\Users\nodejs-dev\AppData\Roaming\npm-cache\shawnify-media-api\0.0.1\package.tgz
+35 verbose request uri https://registry.npmjs.org/shawnify-media-api
+36 verbose request sending authorization for write operation
+37 info attempt registry request try #1 at 12:33:20 AM
+38 verbose request using bearer token for auth
+39 verbose request id 5f1d001a93d34adf
+40 http request PUT https://registry.npmjs.org/shawnify-media-api
+41 http 403 https://registry.npmjs.org/shawnify-media-api
+42 verbose headers { date: 'Thu, 10 Jan 2019 05:33:26 GMT',
+42 verbose headers   'content-type': 'application/json',
+42 verbose headers   'transfer-encoding': 'chunked',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'set-cookie': [ '__cfduid=d38726d02727b8567a5bcfd27676ec3c61547098405; expires=Fri, 10-Jan-20 05:33:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+42 verbose headers   'cf-ray': '496cc4cd2c283030-YYZ',
+42 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+42 verbose headers   vary: 'Accept-Encoding',
+42 verbose headers   server: 'cloudflare',
+42 verbose headers   'content-encoding': 'gzip' }
+43 verbose request invalidating C:\Users\nodejs-dev\AppData\Roaming\npm-cache\registry.npmjs.org\shawnify-media-api on PUT
+44 error publish Failed PUT 403
+45 verbose stack Error: Package name too similar to existing packages; try renaming your package to '@mervynmartin/shawnify-media-api' and publishing with 'npm publish --access=public' instead : shawnify-media-api
+45 verbose stack     at makeError (C:\Program Files (x86)\Nodist\npmv\4.0.5\node_modules\npm-registry-client\lib\request.js:302:12)
+45 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Nodist\npmv\4.0.5\node_modules\npm-registry-client\lib\request.js:290:14)
+45 verbose stack     at C:\Program Files (x86)\Nodist\npmv\4.0.5\node_modules\npm-registry-client\lib\request.js:216:7
+45 verbose stack     at Gunzip.onEnd (zlib.js:213:5)
+45 verbose stack     at emitNone (events.js:91:20)
+45 verbose stack     at Gunzip.emit (events.js:185:7)
+45 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+45 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+45 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+46 verbose statusCode 403
+47 verbose pkgid shawnify-media-api
+48 verbose cwd C:\repo\shawnify-media-api
+49 error Windows_NT 10.0.10240
+50 error argv "C:\\Program Files (x86)\\Nodist\\v-x64\\7.2.1\\node.exe" "C:\\Program Files (x86)\\Nodist\\npmv\\4.0.5\\bin\\npm-cli.js" "publish"
+51 error node v7.2.1
+52 error npm  v4.0.5
+53 error code E403
+54 error Package name too similar to existing packages; try renaming your package to '@mervynmartin/shawnify-media-api' and publishing with 'npm publish --access=public' instead : shawnify-media-api
+55 error If you need help, you may report this error at:
+55 error     <https://github.com/npm/npm/issues>
+56 verbose exit [ 1, true ]
